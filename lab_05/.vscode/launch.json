@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/abcd2/OneDrive/Desktop/BMSTU-5-cem-OS-main/BMSTU-5-cem-OS-main/lab_06",
+      "program": "c:/Users/abcd2/OneDrive/Desktop/BMSTU-5-cem-OS-main/BMSTU-5-cem-OS-main/lab_06/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
